@@ -58,7 +58,8 @@ public class Filmarkiv implements FilmarkivADT {
         int soekAntall = 0;
 
         for (int i = 0; i < antall; i++) {
-            if (films[i].getTittel().contains(delstreng)) {
+            String film = films[i].getTittel().toUpperCase();
+            if (film.contains(delstreng.toUpperCase())) {
                 soekFilm[soekAntall] = films[i];
                 soekAntall++;
             }
@@ -78,7 +79,8 @@ public class Filmarkiv implements FilmarkivADT {
         int soekAntall = 0;
 
         for (int i = 0; i < antall; i++) {
-            if (films[i].getProdusent().contains(delstreng)) {
+            String film = films[i].getProdusent().toUpperCase();
+            if (film.contains(delstreng.toUpperCase())) {
                 soekFilm[soekAntall] = films[i];
                 soekAntall++;
             }

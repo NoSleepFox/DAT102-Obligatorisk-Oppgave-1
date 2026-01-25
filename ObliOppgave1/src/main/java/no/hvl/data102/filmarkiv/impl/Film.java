@@ -91,4 +91,15 @@ public class Film {
         return Integer.hashCode(filmnr);
     }
 
+    @Override
+    public String toString() {
+        String returnString = "";
+        returnString += ("Film tittel: " + tittel + "\n");
+        returnString += ("Film filmnummer: " + filmnr + "\n");
+        returnString += ("Film produsent: " + produsent + "\n");
+        returnString += ("Film filmselskap: " + filmselskap + "\n");
+        returnString += ("Film sjanger: " + sjanger);
+        return returnString;
+    }
+
 }
