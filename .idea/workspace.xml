@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="66e39e31-118d-4b0a-8506-41383dfff181" name="Changes" comment="" />
+    <list default="true" id="66e39e31-118d-4b0a-8506-41383dfff181" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ObliOppgave1/src/no/hvl/data102/filmarkiv/impl/Filmarkiv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObliOppgave1/src/no/hvl/data102/filmarkiv/impl/LinearNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObliOppgave1/src/test/java/no/hvl/data102/filmarkiv2/test/Filmarkiv2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DAT102-Obligatorisk-Oppgave-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DAT102-Obligatorisk-Oppgave-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObliOppgave1/src/main/java/no/hvl/data102/filmarkiv/adt/FilmarkivADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObliOppgave1/src/no/hvl/data102/filmarkiv/adt/FilmarkivADT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObliOppgave1/src/main/java/no/hvl/data102/filmarkiv/impl/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObliOppgave1/src/no/hvl/data102/filmarkiv/impl/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObliOppgave1/src/main/java/no/hvl/data102/filmarkiv/impl/Filmarkiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObliOppgave1/src/no/hvl/data102/filmarkiv/impl/Filmarkiv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObliOppgave1/src/main/java/no/hvl/data102/filmarkiv/impl/Sjanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObliOppgave1/src/no/hvl/data102/filmarkiv/impl/Sjanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObliOppgave1/src/main/java/no/hvl/data102/filmarkiv/klient/FilmarkivMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObliOppgave1/src/no/hvl/data102/filmarkiv/klient/FilmarkivMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObliOppgave1/src/main/java/no/hvl/data102/filmarkiv/klient/Meny.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObliOppgave1/src/no/hvl/data102/filmarkiv/klient/Meny.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObliOppgave1/src/main/java/no/hvl/data102/filmarkiv/klient/Tekstgrensesnitt.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObliOppgave1/src/no/hvl/data102/filmarkiv/klient/Tekstgrensesnitt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObliOppgave1/src/test/java/no/hvl/data102/filmarkiv/test/FilmarkivTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ObliOppgave1/src/test/java/no/hvl/data102/filmarkiv/test/FilmarkivTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="38cdNGPJSL6sNykzt98mlMTfTh7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,7 +44,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FilmarkivMain.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.Filmarkiv2Test.executor": "Run",
+    "JUnit.FilmarkivTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -28,6 +59,19 @@
     "last_opened_file_path": "/Users/simen/Java/DATA102/DAT102-Obligatorisk-Oppgave-1"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="filmarkiv22" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="filmarkiv22" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
