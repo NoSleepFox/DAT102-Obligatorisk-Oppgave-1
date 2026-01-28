@@ -1,4 +1,4 @@
-package test.java.no.hvl.data102.filmarkiv2.test;
+package no.hvl.data102.filmarkiv2.test;
 
 import no.hvl.data102.filmarkiv.impl.Filmarkiv2;
 import no.hvl.data102.filmarkiv.impl.Film;
@@ -54,6 +54,13 @@ public class Filmarkiv2Test {
         assertNotNull(tabell);
         assertEquals(1,tabell.length);
         assertEquals("Star Wars",tabell[0].getTittel());
+    }
+    @Test
+    void testSoekProdusent(){
+        Film[] tabell = arkiv.soekProdusent("George");
+        assertNotNull(tabell);
+        assertEquals(2, tabell.length);
+        assertEquals("George Lucas", tabell[0].getProdusent());
     }
     @Test
     void testAntallSjanger(){

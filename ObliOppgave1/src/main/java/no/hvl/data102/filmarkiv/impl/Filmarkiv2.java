@@ -1,5 +1,6 @@
 package no.hvl.data102.filmarkiv.impl;
 import no.hvl.data102.filmarkiv.adt.FilmarkivADT;
+import java.util.function.Predicate;
 
 public class Filmarkiv2 implements FilmarkivADT {
     private int antall;
@@ -79,13 +80,14 @@ public class Filmarkiv2 implements FilmarkivADT {
     public int antall(){
         return antall;
     }
-    private Film[] finnVedKriterium(java.util.function.Predicate<Film> kriterium){
+
+    private Film[] finnVedKriterium(Predicate<Film> kriterium){
         Film[] midlertidig = new Film[antall];
         int treffCount = 0;
         LinearNode<Film> aktuell = start;
         while (aktuell != null){
             if(kriterium.test(aktuell.data)){
-                midlertidig[treffCount++]= aktuell.data;
+                midlertidig[treffCount++] = aktuell.data;
             }
             aktuell = aktuell.neste;
         }

@@ -1,4 +1,4 @@
-package test.java.no.hvl.data102.filmarkiv.test;
+package no.hvl.data102.filmarkiv.test;
 
 import no.hvl.data102.filmarkiv.impl.Filmarkiv;
 import no.hvl.data102.filmarkiv.impl.Film;
